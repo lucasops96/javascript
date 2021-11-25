@@ -14,11 +14,13 @@
     </style>
 </head>
 <body>
+    <h1>Olá,Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur necessitatibus commodi, incidunt deleniti, atque cum est optio vel odit ipsam fuga facere sapiente ullam consectetur rerum nihil. Aspernatur, provident ex?</p>
     <script>
-         var nome = window.prompt('Qual seu nome?')
-         var n1 = Number(window.prompt('salario?'))
-         window.alert('Prazer em te conhecer '+ nome +', seja bem-vindo.')
-         document.write('Seu salário é ' + n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}))
+         var n1 = Number.parseFloat(window.prompt('valor 1'))
+         var n2 = Number(window.prompt('valor 2'))
+         var s = n1 + n2
+         window.alert(`A soma de ${n1} + ${n2} = `+ s)
     </script>
 </body>
 </html>
